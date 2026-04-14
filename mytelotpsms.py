@@ -262,7 +262,8 @@ async def help_simple(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "- Simple: '30' (every 30 seconds)\n"
         "- Custom: '2w 3d 4h 30m' (every 2 weeks, 3 days, 4 hours, 30 minutes)\n"
         "- Shortcuts: 'daily', 'weekly', 'hourly', 'minutely'\n"
-        "- With time: 'daily at 14:30' (every day at 2:30 PM)",
+        "- With time: 'daily at 14:30' (every day at 2:30 PM)"
+        "-📱 CREATEED BY @KOEKOE4\n\n",
         reply_markup=simple_keyboard()
     )
 
